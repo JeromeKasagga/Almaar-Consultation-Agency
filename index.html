@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Almaar Consulting - Kampala</title>
+    <meta name="description" content="Almaar Consulting - Empowering Potential: Unlocking the Future. High-end business consultation across East Africa.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body class="font-sans antialiased bg-light text-dark overflow-x-hidden">
+    
+    <!-- HEADER -->
+    <header id="main-header" class="fixed top-0 left-0 w-full px-5 py-6 md:py-6 flex justify-between items-center z-50 transition-all duration-300">
+      <div class="logo flex items-center text-2xl font-medium gap-3 z-[51]">
+        <div class="w-5 h-5 bg-accent rounded-tl-md rounded-br-md transform rotate-45"></div>
+        Almaar
+      </div>
+      
+      <!-- Desktop Nav -->
+      <nav class="hidden md:flex bg-black/5 rounded-full p-1 gap-1">
+        <a href="#about" class="px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300 hover:text-accent nav-link">About</a>
+        <a href="#services" class="px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300 hover:text-accent nav-link">Services</a>
+        <a href="#cases" class="px-5 py-2 rounded-full text-sm font-medium transition-colors duration-300 hover:text-accent nav-link">Cases</a>
+      </nav>
+      
+      <!-- Contact Button -->
+      <a href="#contact-section" class="hidden md:flex items-center justify-center bg-accent text-black px-6 py-2 rounded-full font-medium text-sm transition-colors duration-300 hover:bg-[#DCAE5B] z-[51]">Contact us</a>
+
+      <!-- Mobile Hamburger -->
+      <button class="hamburger flex flex-col gap-[6px] md:hidden z-[51] focus:outline-none" aria-label="Menu">
+        <span class="block w-[30px] h-[2px] bg-dark transition-all duration-300"></span>
+        <span class="block w-[30px] h-[2px] bg-dark transition-all duration-300"></span>
+        <span class="block w-[30px] h-[2px] bg-dark transition-all duration-300"></span>
+      </button>
+    </header>
+
+    <!-- Mobile Nav Overlay -->
+    <div id="mobile-nav-overlay" class="fixed inset-0 bg-dark z-40 flex flex-col justify-center items-center gap-8 transform -translate-y-full transition-transform duration-500 ease-in-out">
+      <a href="#about" class="text-3xl text-white font-medium active:text-accent mobile-nav-link">About</a>
+      <a href="#services" class="text-3xl text-white font-medium active:text-accent mobile-nav-link">Services</a>
+      <a href="#cases" class="text-3xl text-white font-medium active:text-accent mobile-nav-link">Cases</a>
+      <a href="#contact-section" class="text-3xl text-accent font-medium mt-8 mobile-nav-link">Contact us</a>
+    </div>
+
+    <main>
+      <!-- HERO SECTION (DARK) -->
+      <section id="hero" class="bg-dark text-white pt-32 pb-16 px-5 md:px-[5%] min-h-screen flex flex-col justify-center section-dark">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center mb-8">
+          <div>
+            <h1 class="gsap-hero-headline text-5xl md:text-[8vw] font-light tracking-tight leading-none mb-8 opacity-0">Empowering Potential:<br>Unlocking the Future</h1>
+            <a href="#services" class="gsap-hero-element opacity-0 inline-flex items-center justify-center bg-accent text-black px-8 py-4 md:px-6 md:py-3 rounded-full font-medium text-lg md:text-base transition-colors duration-300 hover:bg-[#DCAE5B] w-full md:w-auto active:bg-[#DCAE5B]">
+              Discover more
+              <span class="ml-3 flex items-center justify-center w-6 h-6 border border-black rounded-full">↗</span>
+            </a>
+          </div>
+          <div class="flex justify-start md:justify-end">
+            <svg class="gsap-hero-element opacity-0" width="100" height="100" viewBox="0 0 100 100" fill="none" stroke="#E5B869" stroke-width="1">
+              <path d="M10,50 L90,50 M50,10 L90,50 L50,90" stroke-linejoin="round"/>
+              <path d="M10,60 L80,60 M40,20 L80,60 L40,100" stroke-linejoin="round" opacity="0.5"/>
+            </svg>
+          </div>
+        </div>
+
+        <div class="gsap-hero-element opacity-0 relative w-full h-[40vh] overflow-hidden rounded mb-8">
+          <img src="/uganda_hero.png" alt="Corporate professionals in Kampala" class="w-full h-full object-cover grayscale">
+        </div>
+
+        <div class="gsap-hero-element opacity-0 max-w-md">
+          <h3 class="text-base mb-2">experience</h3>
+          <p class="text-sm leading-relaxed font-light text-gray-400">
+            Memorable experiences leave lasting impressions. Your community members creates a sense of excitement and anticipation. These experiences become stories that people share, spreading the passion even further.
+          </p>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION (LIGHT) -->
+      <section id="about" class="bg-light text-dark py-16 md:py-24 px-5 md:px-[5%] section-light">
+        <h2 id="about-title" class="text-5xl md:text-[8vw] font-light tracking-tight leading-none mb-8 opacity-100 md:opacity-0">Almaar</h2>
+        <div id="about-content" class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+          <div class="gsap-about-left opacity-100 md:opacity-0">
+            <div class="flex items-center gap-4 mb-8">
+              <span class="font-medium">0.1 / About</span>
+              <div class="h-px w-12 bg-black"></div>
+            </div>
+            <p class="text-lg md:text-xl leading-relaxed font-light mb-8">
+              Almaar + Companies was founded in 2014 in Kampala and has shaped and reshaped countless organizations across East Africa. Almaar consists of passionate connectors, storytellers, and entrepreneurs implementing engagement strategies that drive organizations into the future.
+            </p>
+            <svg width="150" height="150" viewBox="0 0 100 100" fill="none" stroke="rgba(0,0,0,0.2)" stroke-width="0.5" class="mb-8 hidden md:block">
+              <path d="M10,10 L90,10 L90,50 L10,90 Z" />
+              <path d="M50,10 L50,90" />
+            </svg>
+          </div>
+
+          <div class="gsap-about-right opacity-100 md:opacity-0 relative mt-8 md:mt-0">
+            <div class="absolute -top-8 right-0 w-24 h-24 z-10 border-[8px] border-light">
+              <img src="/about_lightbulb.png" alt="Hand holding lightbulb" class="w-full h-full object-cover grayscale">
+            </div>
+            <div class="w-full pr-8">
+              <img src="/about_desk.png" alt="Consultants collaborating in Kampala" class="w-full h-auto rounded-lg grayscale">
+            </div>
+            
+            <div class="mt-12 ml-4">
+              <div class="flex items-center gap-4 mb-4">
+                <div class="h-px w-8 bg-accent"></div>
+                <h3 class="font-medium text-lg">Our mission</h3>
+              </div>
+              <p class="text-sm md:text-base leading-relaxed font-light text-gray-500">
+                Through working with businesses ranging from international non-profits to billion-dollar corporations in Uganda and beyond, Almaar has employed deep expertise in developing communication strategies that support business and financial objectives, executing results-driven marketing and engagement strategies that result in highest levels of client and employee retention.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SERVICES SECTION (DARK) -->
+      <section id="services" class="bg-dark text-white py-16 md:py-24 px-5 md:px-[5%] section-dark">
+        <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-16 gap-6">
+          <h2 class="text-4xl md:text-6xl font-light tracking-tight">Services</h2>
+          <a href="#" class="group flex items-center text-sm font-medium border-b border-accent pb-1 transition-all duration-300 hover:text-accent">
+            Discover more
+            <span class="ml-2 text-accent transform transition-transform duration-300 group-hover:translate-x-1">→</span>
+          </a>
+        </div>
+
+        <div id="services-wrapper" class="flex flex-col border-t border-white/10">
+          <!-- Service 1 -->
+          <div class="gsap-service-row opacity-100 md:opacity-0 group block w-full transition-all duration-300 ease-in-out hover:text-accent active:text-accent border-b border-white/10 py-8 cursor-pointer">
+            <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-0">
+              <div class="flex justify-between items-center md:w-1/2 pr-4">
+                <h3 class="text-2xl md:text-3xl font-light transition-colors duration-300 group-hover:text-accent group-active:text-accent">Specialized Initiatives</h3>
+                <span class="text-lg text-gray-500 transition-colors duration-300 group-hover:text-accent group-active:text-accent">01</span>
+              </div>
+              <div class="md:w-1/2 flex flex-wrap justify-start md:justify-end gap-3">
+                <span class="border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Product Innovation</span>
+                <span class="border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Personalization</span>
+                <span class="border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Inclusive Product</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Service 2 -->
+          <div class="gsap-service-row opacity-100 md:opacity-0 group block w-full transition-all duration-300 ease-in-out hover:text-accent active:text-accent border-b border-white/10 py-8 cursor-pointer">
+            <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-0">
+              <div class="flex justify-between items-center md:w-1/2 pr-4">
+                <h3 class="text-2xl md:text-3xl font-light transition-colors duration-300 group-hover:text-accent group-active:text-accent">Environment Globalization</h3>
+                <span class="text-lg text-gray-500 transition-colors duration-300 group-hover:text-accent group-active:text-accent">02</span>
+              </div>
+              <div class="md:w-1/2 flex flex-nowrap md:flex-wrap overflow-x-auto scroll-carousel gap-3 pb-2 md:pb-0 md:justify-end">
+                <span class="flex-none border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">East African Markets</span>
+                <span class="flex-none border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Regional Trade</span>
+                <span class="flex-none border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Market Entry</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Service 3 -->
+          <div class="gsap-service-row opacity-100 md:opacity-0 group block w-full transition-all duration-300 ease-in-out hover:text-accent active:text-accent border-b border-white/10 py-8 cursor-pointer">
+            <div class="flex flex-col md:flex-row md:items-center gap-6 md:gap-0">
+              <div class="flex justify-between items-center md:w-1/2 pr-4">
+                <h3 class="text-2xl md:text-3xl font-light transition-colors duration-300 group-hover:text-accent group-active:text-accent">Growth Sustenance</h3>
+                <span class="text-lg text-gray-500 transition-colors duration-300 group-hover:text-accent group-active:text-accent">03</span>
+              </div>
+              <div class="md:w-1/2 flex flex-nowrap md:flex-wrap overflow-x-auto scroll-carousel gap-3 pb-2 md:pb-0 md:justify-end">
+                <span class="flex-none border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Capital Structure</span>
+                <span class="flex-none border border-white/20 rounded-full px-4 py-2 text-sm whitespace-nowrap transition-colors duration-300 group-hover:border-accent group-hover:text-accent group-active:border-accent group-active:text-accent">Mergers & Acquisitions</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CASES SECTION (DARK) -->
+      <section id="cases" class="bg-dark text-white py-16 md:py-24 px-5 md:px-[5%] section-dark">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
+          <div class="order-2 md:order-1">
+             <h4 class="text-accent text-xs tracking-widest uppercase mb-4">Category of services</h4>
+             <div class="flex overflow-x-auto scroll-carousel gap-4 mb-8 text-sm text-gray-500 pb-2">
+               <span class="text-white whitespace-nowrap flex-none">Specialized Initiatives</span>
+               <span class="whitespace-nowrap flex-none">Environment Globalization</span>
+               <span class="whitespace-nowrap flex-none">Growth Sustenance</span>
+             </div>
+
+             <h3 class="text-3xl md:text-4xl font-light mb-8 leading-tight">Lorem ipsum dolor sit amet,<br>consectetur</h3>
+             <p class="text-base text-gray-400 font-light leading-relaxed mb-8">
+               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+             </p>
+             <a href="#" class="group inline-flex items-center text-sm font-medium border-b border-accent pb-1 transition-all duration-300 hover:text-accent active:text-accent">
+               View case
+               <span class="ml-2 text-accent transform transition-transform duration-300 group-hover:translate-x-1">→</span>
+             </a>
+          </div>
+          <div class="order-1 md:order-2 mb-8 md:mb-0">
+            <div class="flex justify-between items-start mb-8 flex-wrap gap-4">
+              <h2 class="text-4xl md:text-6xl font-light tracking-tight">Cases</h2>
+              <div class="text-right">
+                <svg width="40" height="20" viewBox="0 0 40 20" fill="none" stroke="#E5B869" stroke-width="1">
+                  <path d="M0,10 L35,10 M25,0 L35,10 L25,20" stroke-linejoin="round"/>
+                </svg>
+                <p class="text-xs mt-2 text-gray-400">Open communication<br>and collaboration</p>
+              </div>
+            </div>
+            <div class="w-full rounded-lg overflow-hidden">
+               <img src="/case_showcase.png" alt="Corporate Event in Kampala" class="w-full h-auto block">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STATISTICS SECTION (DARK) -->
+      <section id="statistics" class="bg-dark text-white py-16 md:py-24 px-5 md:px-[5%] section-dark border-t border-white/10">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+          <div>
+            <h2 class="text-4xl md:text-5xl font-light tracking-tight">Statistics</h2>
+          </div>
+          <div class="flex items-end">
+             <p class="text-gray-400 font-light leading-relaxed">
+               We effectively manage KPIs to ensure that organizational impacts are fully realized. Our strategy dictates sustainable, long-term success across the East African region.
+             </p>
+          </div>
+        </div>
+        
+        <div id="statistics-wrapper" class="grid grid-cols-1 md:grid-cols-2 border-t border-l border-white/10 mt-8">
+          <div class="p-8 md:p-16 border-r border-b border-white/10 relative group">
+            <div class="text-5xl md:text-6xl font-light mb-4 transition-colors duration-300 group-hover:text-accent"><span class="gsap-stat-number" data-target="200">0</span>%</div>
+            <div class="text-lg text-gray-500">Revenue Growth</div>
+          </div>
+          <div class="p-8 md:p-16 border-r border-b border-white/10 relative group">
+            <div class="text-5xl md:text-6xl font-light mb-4 transition-colors duration-300 group-hover:text-accent"><span class="gsap-stat-number" data-target="77">0</span>%</div>
+            <div class="text-lg text-gray-500">Client Retention</div>
+          </div>
+          <div class="p-8 md:p-16 border-r border-b border-white/10 relative group">
+            <div class="text-5xl md:text-6xl font-light mb-4 transition-colors duration-300 group-hover:text-accent"><span class="gsap-stat-number" data-target="80">0</span>%</div>
+            <div class="text-lg text-gray-500">Employee Satisfaction</div>
+          </div>
+          <div class="p-8 md:p-16 border-r border-b border-white/10 relative group">
+            <div class="text-5xl md:text-6xl font-light mb-4 transition-colors duration-300 group-hover:text-accent"><span class="gsap-stat-number" data-target="10">0</span>+</div>
+            <div class="text-lg text-gray-500">Organization Culture</div>
+            <svg class="absolute bottom-8 right-8 text-accent" width="30" height="30" viewBox="0 0 50 50" fill="none" stroke="currentColor" stroke-width="1">
+               <path d="M10,10 L40,40 M20,40 L40,40 L40,20" stroke-linejoin="round"/>
+            </svg>
+          </div>
+        </div>
+      </section>
+
+      <!-- TESTIMONIALS SECTION (LIGHT) -->
+      <section id="testimonials" class="bg-light text-dark py-16 md:py-24 px-5 md:px-[5%] text-center section-light">
+         <div class="flex justify-center mb-8">
+           <div class="flex items-center bg-white px-4 py-2 rounded-full shadow-sm">
+             <div class="flex mr-4">
+               <img src="/avatar_1.png" class="w-8 h-8 rounded-full -mr-3 border-2 border-white object-cover">
+               <img src="/avatar_2.png" class="w-8 h-8 rounded-full -mr-3 border-2 border-white object-cover">
+               <div class="w-8 h-8 rounded-full bg-dark text-white flex items-center justify-center text-xs border-2 border-white relative z-10">+</div>
+             </div>
+             <span class="font-medium text-sm">4k+ Satisfied Clients</span>
+           </div>
+         </div>
+         
+         <p class="max-w-3xl mx-auto mb-16 text-xl md:text-2xl leading-relaxed font-light">
+           We pride ourselves on delivering tailored solutions that drive results and exceed expectations. Hear from some of our successful partners in the region.
+         </p>
+
+         <div id="testimonials-wrapper" class="flex overflow-x-auto scroll-carousel gap-6 text-left pb-4 snap-x">
+            <!-- Card 1 -->
+            <div class="gsap-testimonial-card opacity-100 md:opacity-0 flex-none w-[85%] md:w-auto md:flex-1 bg-white p-8 rounded-xl shadow-sm snap-start">
+              <div class="flex items-center gap-4 mb-6">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center font-medium">EH</div>
+                <div>
+                  <h4 class="font-medium">Esther Howard</h4>
+                  <span class="text-gray-500 text-sm">Art Director</span>
+                </div>
+              </div>
+              <p class="text-gray-700 font-light">"Almaar transformed our internal communications strategy. The team's insights helped us unlock new potential and fostered a stronger culture in Kampala."</p>
+            </div>
+            <!-- Card 2 -->
+            <div class="gsap-testimonial-card opacity-100 md:opacity-0 flex-none w-[85%] md:w-auto md:flex-1 bg-white p-8 rounded-xl shadow-sm snap-start">
+              <div class="flex items-center gap-4 mb-6">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center font-medium">CW</div>
+                <div>
+                  <h4 class="font-medium">Courtney Webb</h4>
+                  <span class="text-gray-500 text-sm">Marketing Lead</span>
+                </div>
+              </div>
+              <p class="text-gray-700 font-light">"Their approach to environment globalization gave us the exact framework we needed to scale our East African market operations successfully."</p>
+            </div>
+            <!-- Card 3 -->
+            <div class="gsap-testimonial-card opacity-100 md:opacity-0 flex-none w-[85%] md:w-auto md:flex-1 bg-white p-8 rounded-xl shadow-sm snap-start">
+              <div class="flex items-center gap-4 mb-6">
+                <div class="w-12 h-12 rounded-full bg-gray-200 flex items-center justify-center font-medium">RB</div>
+                <div>
+                  <h4 class="font-medium">Ronald Richards</h4>
+                  <span class="text-gray-500 text-sm">CEO</span>
+                </div>
+              </div>
+              <p class="text-gray-700 font-light">"A brilliant partnership. Almaar's consultants didn't just advise; they executed a results-driven engagement strategy that significantly grew our revenue."</p>
+            </div>
+         </div>
+      </section>
+
+      <!-- CONTACT / FOOTER SECTION (LIGHT) -->
+      <section id="contact-section" class="bg-light text-dark py-16 px-5 md:px-[5%] section-light">
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12 mb-16 items-center">
+          <div class="relative">
+            <svg class="absolute -top-5 -left-5 z-0" width="150" height="150" viewBox="0 0 100 100" fill="none" stroke="#E5B869" stroke-width="0.5">
+              <circle cx="50" cy="50" r="40" />
+              <path d="M10,50 L90,50 M50,10 L50,90" />
+            </svg>
+            <h2 class="text-6xl md:text-[8vw] font-light tracking-tight leading-none relative z-10">Let's<br>talk</h2>
+          </div>
+          <div>
+            <form id="contact-wrapper" class="flex flex-col gap-6">
+              <input type="text" placeholder="Your name" class="gsap-contact-field opacity-100 md:opacity-0 w-full border-b border-black py-4 bg-transparent font-sans text-base outline-none rounded-none focus:border-accent transition-colors">
+              <input type="email" placeholder="Your email" class="gsap-contact-field opacity-100 md:opacity-0 w-full border-b border-black py-4 bg-transparent font-sans text-base outline-none rounded-none focus:border-accent transition-colors">
+              <input type="text" placeholder="Comments" class="gsap-contact-field opacity-100 md:opacity-0 w-full border-b border-black py-4 bg-transparent font-sans text-base outline-none rounded-none focus:border-accent transition-colors mb-6">
+              <div class="gsap-contact-field opacity-100 md:opacity-0">
+                 <button type="button" class="group inline-flex items-center justify-center bg-accent text-black px-8 py-4 md:px-6 md:py-3 rounded-full font-medium text-lg md:text-base transition-colors duration-300 hover:bg-[#DCAE5B] w-full md:w-auto active:bg-[#DCAE5B] self-start">
+                   Get in touch
+                   <span class="ml-3 flex items-center justify-center w-6 h-6 border border-black rounded-full transform transition-transform duration-300 group-hover:translate-x-1 group-hover:-translate-y-1">↗</span>
+                 </button>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="border-t border-black/10 pt-8 flex flex-col md:flex-row justify-between items-center gap-8 text-sm font-medium">
+          <div class="flex gap-8">
+            <a href="#" class="transition-colors hover:text-accent">FACEBOOK</a>
+            <a href="#" class="transition-colors hover:text-accent">INSTAGRAM</a>
+          </div>
+          <div class="flex gap-6 flex-wrap justify-center text-gray-500">
+            <a href="#cases" class="transition-colors hover:text-accent">Cases</a>
+            <a href="#about" class="transition-colors hover:text-accent">About</a>
+            <a href="#services" class="transition-colors hover:text-accent">Services</a>
+            <a href="#contact-section" class="transition-colors hover:text-accent">Contact us</a>
+            <a href="#" class="transition-colors hover:text-accent">Join us</a>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
