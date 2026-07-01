@@ -1,5 +1,12 @@
 # Almaar Consultation Agency
 
+<img width="1440" height="812" alt="Screenshot 2026-07-01 at 14 20 38" src="https://github.com/user-attachments/assets/0fee2e44-221b-4981-a60c-2e067573c52d" />
+<img width="1440" height="812" alt="Screenshot 2026-07-01 at 14 20 30" src="https://github.com/user-attachments/assets/b4dafacd-1769-42f5-b0aa-0ee8ed2c41d5" />
+<img width="1440" height="812" alt="Screenshot 2026-07-01 at 14 20 22" src="https://github.com/user-attachments/assets/ea1d99d0-f158-4666-aafb-39227b0a0c43" />
+<img width="1440" height="812" alt="Screenshot 2026-07-01 at 14 20 14" src="https://github.com/user-attachments/assets/3b523315-64f4-459d-ad21-db4ea4dde4ae" />
+<img width="1440" height="812" alt="Screenshot 2026-07-01 at 14 20 03" src="https://github.com/user-attachments/assets/9e9ed12b-a5e5-4f0d-a5f8-1ec49bc98972" />
+
+
 A premium, high-converting corporate website designed for **Almaar + Companies**, a high-end business consultation agency based in Kampala, Uganda, driving growth and engagement strategies across East Africa.
 
 ## 🚀 Features
